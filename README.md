@@ -10,7 +10,7 @@ Every major version of an API should get it's own repository in order to allow t
 
 The template has two placeholders, `example-site` and `website-name`. These placeholders should be replaced with the appropriate values.
 
-_Tip: It is recommended to use an IDE with a project-wide find-and-replace tool, such as the [IntelliJ suite of IDEs](https://www.jetbrains.com/idea/) or [VSCode](https://code.visualstudio.com/)_
+_Tip: It is recommended to use an IDE with a project-wide find-and-replace tool, such as the [IntelliJ suite of IDEs](https://www.jetbrains.com/idea/) or [VSCode](https://code.visualstudio.com/)._
 
 * `website-name` is the domain name of the API website, or another known identifier. For example, if I am building a type system for the version 2 MyAnimeList API, I would replace all instances of `website-name` with `myanimelist.net v2`.
 * `example-site` is the package name of the API types, as periods cannot be in package names for Python or npm. For example, if I am building a type system for the version 2 MyAnimeList API, I would replace all instances of `example-site` with `myanimelist-v2`.
