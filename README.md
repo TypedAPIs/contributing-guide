@@ -25,4 +25,8 @@ If the API has multiple endpoints under a single category (such as oauth, admin,
 
 ### Glossary
 
-Some APIs use terms over and over again that mean a specific term but are not specialized enough for their own type, such as a special type of string. One example includes snowflakes from the Discord API, and while these are integers they also have some specialized meaning. These types should be defined in the `glossary.rst` file.
+Some APIs use terms over and over again that mean a specific term but are not specialized enough for their own type, such as a special type of string. One example includes snowflakes from the Discord API, and while these are integers they also have some specialized meaning. These types should be defined in the `glossary.rst` file. For attributes, they should all link back to the glossary entry.
+
+### Other Endpoints
+
+If there are other notable endpoints that do not get documentation since they can only be used by privilieged users, they can be noted in the `
